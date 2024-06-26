@@ -1,14 +1,11 @@
-import { ContactsSection } from './components/ContactsSection';
-import { Header } from './components/Header';
+import { DefaultComponent } from './components/DefaultComponent';
+import { RoutesMain } from './routes';
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <main className="conteiner">
-        <ContactsSection />
-      </main>
-    </>
+    <DefaultComponent>
+      <RoutesMain />
+    </DefaultComponent>
   );
 };
 

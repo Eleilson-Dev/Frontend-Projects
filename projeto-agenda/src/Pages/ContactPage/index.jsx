@@ -1,7 +1,7 @@
-import { ContactsList } from '../ContactsList';
 import styles from './styles.module.scss';
+import { ContactsList } from '../../components/ContactsList';
 
-export const ContactsSection = () => {
+export const ContactPage = () => {
   return (
     <section className={styles.section}>
       <h1>Agenda</h1>
